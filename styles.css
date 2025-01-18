@@ -1,0 +1,50 @@
+body{
+  
+    margin:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+
+    margin-top:100px;
+    box-shadow: 2px 1px #7a6faa86 ;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom:8px solid #7a6faa86;
+    width:480px;
+    height:200px;
+    display:flex;
+    padding:20px;
+    justify-content:space-around;
+    text-align: center;
+    background-color:#93c6f5e6;
+    text-shadow: 2px 2px #7a6faa86;
+    animation-name: color_change;
+    animation-duration:10s;
+}
+
+@keyframes color_change{
+    from{background-color: #e075d7;}
+    
+    to{background-color: #93c6f5e6;}
+}
+
+.card:hover{
+    transform: scale(1.2);
+    /* background-color:rgba(231, 122, 218, 0.41);
+    border:1px solid black;
+    box-shadow: none; */
+}
+
+.avatar{
+    box-shadow: 2px 2px #7a6faa86 ;
+    border:1px solid black;
+    margin-top:23px;
+    width:160px;
+    height: 150px;
+
+}
+
+.text-contents{
+    margin-top:10px;
+}
