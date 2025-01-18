@@ -20,7 +20,7 @@ body{
     background-color:#93c6f5e6;
     text-shadow: 2px 2px #7a6faa86;
     animation-name: color_change;
-    animation-duration:10s;
+    animation-duration:6s;
 }
 
 @keyframes color_change{
